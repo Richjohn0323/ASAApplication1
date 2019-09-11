@@ -28,6 +28,10 @@
     <Configure Include="Inputs\Input.json">
       <SubType>Input</SubType>
     </Configure>
+    <Configure Include="JSFunction1.js.json">
+      <SubType>JSFunctionConfig</SubType>
+      <DependentUpon>JSFunction1.js</DependentUpon>
+    </Configure>
     <Configure Include="Outputs\Output.json">
       <SubType>Output</SubType>
     </Configure>
@@ -39,6 +43,11 @@
     <Folder Include="Inputs" />
     <Folder Include="Functions" />
     <Folder Include="Outputs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JSFunction1.js">
+      <SubType>JSFunctionCode</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(ASATargetsFilePath)" />
 </Project>
