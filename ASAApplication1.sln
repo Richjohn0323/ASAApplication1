@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E6C563F2-BDC2-4A24-ACBF-01715157DCBB}") = "ASAApplication1", "ASAApplication1\ASAApplication1.asaproj", "{ACFBC018-7F2F-4ED7-9403-7017B5941984}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFBC018-7F2F-4ED7-9403-7017B5941984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFBC018-7F2F-4ED7-9403-7017B5941984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFBC018-7F2F-4ED7-9403-7017B5941984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFBC018-7F2F-4ED7-9403-7017B5941984}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB2B1C22-15D7-4E28-9D68-1932E319C17C}
+	EndGlobalSection
+EndGlobal
